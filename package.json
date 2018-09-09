@@ -1,0 +1,29 @@
+{
+  "name": "sacklunch-fullstack",
+  "version": "1.0.0",
+  "description": "an app to order delivery sack lunch",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adahutchings/SackLunch-FullStack.git"
+  },
+  "keywords": [
+    "sacklunch"
+  ],
+  "author": "Ada Hutchings",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adahutchings/SackLunch-FullStack/issues"
+  },
+  "homepage": "https://github.com/adahutchings/SackLunch-FullStack#readme",
+  "devDependencies": {
+    "jasmine": "^3.0.0",
+    "request": "^2.83.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
